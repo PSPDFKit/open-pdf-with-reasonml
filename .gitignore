@@ -1,0 +1,6 @@
+.merlin
+node_modules
+lib
+dist/main.js
+dist/vendors~*
+src/*.bs.js

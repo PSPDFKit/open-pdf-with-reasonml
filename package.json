@@ -1,0 +1,22 @@
+{
+  "name": "open-pdf-with-reasonml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world && webpack",
+    "start": "serve ./dist",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-pdfjs": "0.4.0",
+    "bs-platform": "^4.0.18",
+    "bs-webapi": "^0.13.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^2.0.943",
+    "serve": "^10.1.2"
+  }
+}

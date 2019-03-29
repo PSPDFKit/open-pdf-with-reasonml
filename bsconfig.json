@@ -1,0 +1,17 @@
+{
+  "name": "open-pdf-with-reasonml",
+  "sources": [
+    "src"
+  ],
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "bs-webapi",
+    "bs-pdfjs"
+  ],
+  "refmt": 3
+}

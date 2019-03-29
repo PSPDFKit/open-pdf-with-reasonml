@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open PDF with ReasonML example</title>
+</head>
+<body>
+<div id="app">
+  <canvas><canvas>
+</div>
+<script src="https://unpkg.com/pdfjs-dist@2.0.489/build/pdf.min.js"></script>
+<script src="ReasonPDFjs.bs.js" type="module"></script>
+<script>
+  initPDFViewer('assets/example.pdf', document.querySelector('#app'));
+</script>
+</body>
+</html>
